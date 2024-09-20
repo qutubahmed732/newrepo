@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*======================>>>>>>>> Header Area <<<<<<<<<<<<<<<<<==============*/
+
+body {
+    background-color: #F6FBFF;
+    font-family: system-ui;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #DFDFDF;
+    align-items: center;
+}
+
+.logo {
+    border: 1px solid #DFDFDF;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.profileSection {
+    border: 1px solid #DFDFDF;
+    height: 55px;
+    width: 202px;
+    display: flex;
+    border-radius: 25px;
+}
+
+.user-profile {
+    display: flex;
+    gap: 10px;
+}
+
+.user-profile>img {
+    width: 40px;
+    height: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ==============================<<<<<<<<< Aside Area >>>>>>>>>>>>>======================== */
+
+.aside {
+    border: 1px solid #DFDFDF;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    gap: 20em;
+}
+
+.btnArea {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.firstBtn {
+    background-color: #1383F5;
+    color: white;
+
+}
+button {
+    width: 80%;
+    height: 2.8em;
+    border-radius: 18px;
+    border: none;
+    background-color: #F6FBFF;
+
+}
+
+
+.logoutBtn {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.logoutBtn button {
+    width: 50%;
+    text-align: left;
+    border: none;
+    padding-left: 15px;
+    background-color: #F6FBFF;
+}
+
+/* ===============<<<<<<<<<<<  Section Area >>>>>>>>>>>>>============== */
+
+
+.section {
+    border: 1px solid black;
+    width: 80%;
+    height: auto;
+}
